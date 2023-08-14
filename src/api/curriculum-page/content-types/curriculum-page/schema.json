@@ -28,6 +28,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::curriculum.curriculum"
+    },
+    "sections": {
+      "displayName": "Title and Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "section.title-and-content"
     }
   }
 }

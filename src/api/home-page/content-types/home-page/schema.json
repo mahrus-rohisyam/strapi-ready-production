@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.page-seo"
+    },
+    "firstSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.general",
+      "max": 3
+    },
+    "secondSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.general",
+      "max": 2
+    },
+    "faqSection": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.general"
+    }
+  }
+}

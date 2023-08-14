@@ -70,7 +70,8 @@ $RECYCLE.BIN/
 *.sql
 *.sqlite
 *.sqlite3
-!initial_database.sql
+!utils/*/*sql
+!utils/initial.sql
 
 ############################
 # Misc.
